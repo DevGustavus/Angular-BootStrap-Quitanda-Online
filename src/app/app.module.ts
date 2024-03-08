@@ -5,12 +5,28 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { QuemSomosComponent } from './pages/quem-somos/quem-somos.component';
+import { CarrosselComponent } from './components/carrossel/carrossel.component';
+import { TermosComponent } from './pages/termos/termos.component';
+import { TrocasComponent } from './pages/trocas/trocas.component';
+import { PrivacidadeComponent } from './pages/privacidade/privacidade.component';
+import { RecuperarSenhaComponent } from './pages/recuperar-senha/recuperar-senha.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavBarComponent
+    NavBarComponent,
+    FooterComponent,
+    QuemSomosComponent,
+    CarrosselComponent,
+    TermosComponent,
+    TrocasComponent,
+    PrivacidadeComponent,
+    RecuperarSenhaComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
