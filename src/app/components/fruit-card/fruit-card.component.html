@@ -1,0 +1,24 @@
+
+<div class="card text-center bg-light">
+    <a href="#" class="position-absolute end-0 p-2 text-danger">
+        <i class="bi-suit-heart" style="font-size: 24px; line-height: 24px;"></i>
+    </a>
+    <a href="/produto.html">
+        <img src="{{frutaImg}}" class="card-img-top">
+    </a>
+    <div class="card-header">
+        {{preco}}
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">{{frutaNome}}</h5>
+        <p class="card-text truncar-3l">
+            {{descricao}}
+        </p>
+    </div>
+    <div class="card-footer">
+        <a href="carrinho.html" class="btn btn-danger mt-2 d-block">
+            Adicionar ao Carrinho
+        </a>
+        <small class="text-success">{{descEstoque}}</small>
+    </div>
+</div>

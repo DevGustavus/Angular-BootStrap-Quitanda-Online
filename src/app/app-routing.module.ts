@@ -7,6 +7,11 @@ import { TrocasComponent } from './pages/trocas/trocas.component';
 import { PrivacidadeComponent } from './pages/privacidade/privacidade.component';
 import { RecuperarSenhaComponent } from './pages/recuperar-senha/recuperar-senha.component';
 import { LoginComponent } from './pages/login/login.component';
+import { CadastrarComponent } from './pages/cadastrar/cadastrar.component';
+import { CadastrarNovaSenhaComponent } from './pages/cadastrar-nova-senha/cadastrar-nova-senha.component';
+import { ConfirmacaoCadastroNovaSenhaComponent } from './pages/confirmacao-cadastro-nova-senha/confirmacao-cadastro-nova-senha.component';
+import { ContatoComponent } from './pages/contato/contato.component';
+import { ConfirmacaoContatoComponent } from './pages/confirmacao-contato/confirmacao-contato.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -15,7 +20,12 @@ const routes: Routes = [
   {path: 'trocas', component: TrocasComponent},
   {path: 'privacidade', component: PrivacidadeComponent},
   {path: 'login', component: LoginComponent},
-  {path: 'recuperarSenha', component: RecuperarSenhaComponent}
+  {path: 'recuperarSenha', component: RecuperarSenhaComponent},
+  {path: 'cadastrar', component: CadastrarComponent},
+  {path: 'cadastrarNovaSenha', component: CadastrarNovaSenhaComponent},
+  {path: 'confirmacaoCadastrarNovaSenha', component: ConfirmacaoCadastroNovaSenhaComponent},
+  {path: 'contato', component: ContatoComponent},
+  {path: 'confirmacaoContato', component: ConfirmacaoContatoComponent}
 ];
 
 @NgModule({

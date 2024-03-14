@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-quem-somos',
@@ -7,6 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class QuemSomosComponent {
 
-  @Input()
   photoCover: String = './../../../assets/img/vetores/undraw_tree_swing_re_pqee.svg';
 }
