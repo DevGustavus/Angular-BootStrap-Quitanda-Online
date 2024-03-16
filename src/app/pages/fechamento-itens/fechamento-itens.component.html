@@ -1,0 +1,62 @@
+<div class="d-flex flex-column wrapper">
+    <header>
+        <app-nav-bar></app-nav-bar>
+    </header>
+    <main class="flex-fill">
+        <div class="container">
+            <h1>Confira os Itens</h1>
+            <h3>Confira os itens e clique em <b>Continuar</b> para prosseguir para a <b>seleção do endereço de entrega</b>.</h3>
+            <ul class="list-group mb-3">
+                <app-fruit-card-fechamento-itens
+                    fruitImg="./../../../assets/img/produtos/000002.jpg"
+                    fruitName="Abacaxi"
+                    fruitDesc="Fruta fresca da melhor qualidade possível, direto do produtor rural para a sua mesa."
+                    fruitQuant="4"
+                    fruitPreco="25,00"
+                ></app-fruit-card-fechamento-itens>
+                <app-fruit-card-fechamento-itens
+                    fruitImg="./../../../assets/img/produtos/000011.jpg"
+                    fruitName="Repolho"
+                    fruitDesc="Fruta fresca da melhor qualidade possível, direto do produtor rural para a sua mesa."
+                    fruitQuant="2"
+                    fruitPreco="11,40"
+                ></app-fruit-card-fechamento-itens>
+                <app-fruit-card-fechamento-itens
+                    fruitImg="./../../../assets/img/produtos/000009.jpg"
+                    fruitName="Abóbora"
+                    fruitDesc="Fruta fresca da melhor qualidade possível, direto do produtor rural para a sua mesa."
+                    fruitQuant="3"
+                    fruitPreco="11,00"
+                ></app-fruit-card-fechamento-itens>
+                <app-fruit-card-fechamento-itens
+                    fruitImg="./../../../assets/img/produtos/000007.jpg"
+                    fruitName="Abacate"
+                    fruitDesc="Fruta fresca da melhor qualidade possível, direto do produtor rural para a sua mesa."
+                    fruitQuant="4"
+                    fruitPreco="12,00"
+                ></app-fruit-card-fechamento-itens>
+                <app-fruit-card-fechamento-itens
+                    fruitImg="./../../../assets/img/produtos/000005.jpg"
+                    fruitName="Goiaba"
+                    fruitDesc="Fruta fresca da melhor qualidade possível, direto do produtor rural para a sua mesa."
+                    fruitQuant="4"
+                    fruitPreco="20,00"
+                ></app-fruit-card-fechamento-itens>
+                <li class="list-group-item pt-3 pb-0">
+                    <div class="text-end">
+                        <h4 class="text-dark mb-3">
+                            Valor Total: R$ 63,84
+                        </h4>
+                        <a routerLink="/carrinho" class="btn btn-outline-success btn-lg mb-3">
+                            Voltar ao Carrinho
+                        </a>
+                        <a routerLink="/fechamentoEndereco" class="btn btn-danger btn-lg ms-2 mb-3">Continuar</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <app-footer></app-footer>
+    </footer>
+</div>

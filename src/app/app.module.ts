@@ -19,6 +19,16 @@ import { ConfirmacaoCadastroNovaSenhaComponent } from './pages/confirmacao-cadas
 import { ContatoComponent } from './pages/contato/contato.component';
 import { ConfirmacaoContatoComponent } from './pages/confirmacao-contato/confirmacao-contato.component';
 import { FruitCardComponent } from './components/fruit-card/fruit-card.component';
+import { CarrinhoComponent } from './pages/carrinho/carrinho.component';
+import { FruitCardCarrinhoComponent } from './components/fruit-card-carrinho/fruit-card-carrinho.component';
+import { FechamentoItensComponent } from './pages/fechamento-itens/fechamento-itens.component';
+import { FruitCardFechamentoItensComponent } from './components/fruit-card-fechamento-itens/fruit-card-fechamento-itens.component';
+import { FechamentoEnderecoComponent } from './pages/fechamento-endereco/fechamento-endereco.component';
+import { EnderecoCardComponent } from './components/endereco-card/endereco-card.component';
+import { FechamentoPagamentoComponent } from './pages/fechamento-pagamento/fechamento-pagamento.component';
+import { FechamentoPedidoComponent } from './pages/fechamento-pedido/fechamento-pedido.component';
+import { ClienteComponent } from './pages/cliente/cliente.component';
+import { ClienteDadosComponent } from './pages/cliente-dados/cliente-dados.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +48,17 @@ import { FruitCardComponent } from './components/fruit-card/fruit-card.component
     ConfirmacaoCadastroNovaSenhaComponent,
     ContatoComponent,
     ConfirmacaoContatoComponent,
-    FruitCardComponent
+    FruitCardComponent,
+    CarrinhoComponent,
+    FruitCardCarrinhoComponent,
+    FechamentoItensComponent,
+    FruitCardFechamentoItensComponent,
+    FechamentoEnderecoComponent,
+    EnderecoCardComponent,
+    FechamentoPagamentoComponent,
+    FechamentoPedidoComponent,
+    ClienteComponent,
+    ClienteDadosComponent,
   ],
   imports: [
     BrowserModule,

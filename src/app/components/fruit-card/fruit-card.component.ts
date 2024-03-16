@@ -16,5 +16,11 @@ export class FruitCardComponent {
   @Input()
   descricao : String = '';
   @Input()
+  btnTheme : String = '';
+  @Input()
+  btnOption : String = '';
+  @Input()
+  descFooter : String = '';
+  @Input()
   descEstoque : String = '';
 }

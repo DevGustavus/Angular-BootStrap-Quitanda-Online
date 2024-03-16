@@ -1,0 +1,22 @@
+label:hover h3, 
+label:hover h3 .text-dark{
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+.btn-check:checked + .btn-outline-danger .text-dark,
+.btn-check:hover + .btn-outline-danger,
+.btn-check:active + .btn-outline-danger .text-dark{
+    color: white !important;
+    transition: background-color 0.2s ease;
+    background-color: var(--bs-danger) !important;
+}
+
+label .text-dark {
+    transition: color 0.2s ease;
+}
+
+.flex-even {
+    flex: 1;
+    min-width: 300px;
+}

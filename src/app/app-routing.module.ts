@@ -12,6 +12,12 @@ import { CadastrarNovaSenhaComponent } from './pages/cadastrar-nova-senha/cadast
 import { ConfirmacaoCadastroNovaSenhaComponent } from './pages/confirmacao-cadastro-nova-senha/confirmacao-cadastro-nova-senha.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { ConfirmacaoContatoComponent } from './pages/confirmacao-contato/confirmacao-contato.component';
+import { CarrinhoComponent } from './pages/carrinho/carrinho.component';
+import { FechamentoItensComponent } from './pages/fechamento-itens/fechamento-itens.component';
+import { FechamentoEnderecoComponent } from './pages/fechamento-endereco/fechamento-endereco.component';
+import { FechamentoPagamentoComponent } from './pages/fechamento-pagamento/fechamento-pagamento.component';
+import { FechamentoPedidoComponent } from './pages/fechamento-pedido/fechamento-pedido.component';
+import { ClienteComponent } from './pages/cliente/cliente.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -25,7 +31,13 @@ const routes: Routes = [
   {path: 'cadastrarNovaSenha', component: CadastrarNovaSenhaComponent},
   {path: 'confirmacaoCadastrarNovaSenha', component: ConfirmacaoCadastroNovaSenhaComponent},
   {path: 'contato', component: ContatoComponent},
-  {path: 'confirmacaoContato', component: ConfirmacaoContatoComponent}
+  {path: 'confirmacaoContato', component: ConfirmacaoContatoComponent},
+  {path: 'carrinho', component: CarrinhoComponent},
+  {path: 'fechamentoItens', component: FechamentoItensComponent},
+  {path: 'fechamentoEndereco', component: FechamentoEnderecoComponent},
+  {path: 'fechamentoPagamento', component: FechamentoPagamentoComponent},
+  {path: 'fechamentoPedido', component: FechamentoPedidoComponent},
+  {path: 'cliente', component: ClienteComponent}
 ];
 
 @NgModule({
