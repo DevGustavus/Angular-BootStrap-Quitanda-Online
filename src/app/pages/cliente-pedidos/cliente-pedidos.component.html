@@ -1,0 +1,62 @@
+<div class="d-flex flex-column wrapper">
+    <header>
+        <app-nav-bar></app-nav-bar>
+    </header>
+    <main class="flex-fill">
+        <div class="container mb-5">
+            <h1>Minha Conta</h1>
+            <div class="row gx-3">
+                <div class="col-4">
+                    <app-cliente-menu-card></app-cliente-menu-card>
+                </div>
+                <div class="col-8">
+                    <form class="row mb-3">
+                        <div class="col-12 col-md-6 mb-3">
+                            <div class="form-floating">
+                                <select class="form-select">
+                                    <option value="30">Últimos 30 dias</option>
+                                    <option value="60">Últimos 60 dias</option>
+                                    <option value="90">Últimos 90 dias</option>
+                                    <option value="180">Últimos 180 dias</option>
+                                    <option value="360" selected>Últimos 360 dias</option>
+                                    <option value="9999">Todo o período</option>
+                                </select>
+                                <label>Período</label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-floating">
+                                <select class="form-select">
+                                    <option value="1" selected>Mais novos primeiro</option>
+                                    <option value="2">Mais antigos primeiro</option>
+                                </select>
+                                <label>Ordenação</label>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="accordion" id="divPedidos">
+                        <app-pedido-accordion
+                            numPedido="000010"
+                            dataPedido="11/10/2020"
+                        ></app-pedido-accordion>
+                        <app-pedido-accordion
+                            numPedido="000009"
+                            dataPedido="11/10/2020"
+                        ></app-pedido-accordion>
+                        <app-pedido-accordion
+                            numPedido="000008"
+                            dataPedido="11/10/2020"
+                        ></app-pedido-accordion>
+                        <app-pedido-accordion
+                            numPedido="000007"
+                            dataPedido="11/10/2020"
+                        ></app-pedido-accordion>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <app-footer></app-footer>
+    </footer>
+</div>

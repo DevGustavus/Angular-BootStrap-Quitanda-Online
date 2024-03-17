@@ -29,6 +29,14 @@ import { FechamentoPagamentoComponent } from './pages/fechamento-pagamento/fecha
 import { FechamentoPedidoComponent } from './pages/fechamento-pedido/fechamento-pedido.component';
 import { ClienteComponent } from './pages/cliente/cliente.component';
 import { ClienteDadosComponent } from './pages/cliente-dados/cliente-dados.component';
+import { ClienteMenuCardComponent } from './components/cliente-menu-card/cliente-menu-card.component';
+import { ClienteContatosComponent } from './pages/cliente-contatos/cliente-contatos.component';
+import { ClienteEnderecoComponent } from './pages/cliente-endereco/cliente-endereco.component';
+import { ClientePedidosComponent } from './pages/cliente-pedidos/cliente-pedidos.component';
+import { ClienteFavoritosComponent } from './pages/cliente-favoritos/cliente-favoritos.component';
+import { ClienteAlterarSenhaComponent } from './pages/cliente-alterar-senha/cliente-alterar-senha.component';
+import { PedidoAccordionComponent } from './components/pedido-accordion/pedido-accordion.component';
+import { ProdutoComponent } from './pages/produto/produto.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +67,14 @@ import { ClienteDadosComponent } from './pages/cliente-dados/cliente-dados.compo
     FechamentoPedidoComponent,
     ClienteComponent,
     ClienteDadosComponent,
+    ClienteMenuCardComponent,
+    ClienteContatosComponent,
+    ClienteEnderecoComponent,
+    ClientePedidosComponent,
+    ClienteFavoritosComponent,
+    ClienteAlterarSenhaComponent,
+    PedidoAccordionComponent,
+    ProdutoComponent,
   ],
   imports: [
     BrowserModule,

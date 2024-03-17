@@ -1,0 +1,54 @@
+<div class="d-flex flex-column wrapper">
+    <header>
+        <app-nav-bar></app-nav-bar>
+    </header>
+    <main class="flex-fill">
+        <div class="container mb-5">
+            <div class="row g-3">
+                <div class="col-12 col-sm-6">
+                    <img src="./../../../assets/img/produtos/000001.jpg" class="img-thumbnail" id="imgProduto">
+                    <br class="clearfix">
+                    <div class="row my-3 gx-3">
+                        <div class="col-3">
+                            <img src="./../../../assets/img/produtos/000001.jpg" class="img-thumbnail" (click)="trocarImagem('./../../../assets/img/produtos/000001.jpg')">
+                        </div>
+                        <div class="col-3">
+                            <img src="./../../../assets/img/produtos/000002.jpg" class="img-thumbnail" (click)="trocarImagem('./../../../assets/img/produtos/000002.jpg')">
+                        </div>
+                        <div class="col-3">
+                            <img src="./../../../assets/img/produtos/000003.jpg" class="img-thumbnail" (click)="trocarImagem('./../../../assets/img/produtos/000003.jpg')">
+                        </div>
+                        <div class="col-3">
+                            <img src="./../../../assets/img/produtos/000004.jpg" class="img-thumbnail" (click)="trocarImagem('./../../../assets/img/produtos/000004.jpg')">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <h1>{{nomeFruta}}</h1>
+                    <p>
+                        Quis officia irure deserunt reprehenderit sunt non ut amet. Sunt veniam cillum aliqua. Elit
+                        labore duis laboris reprehenderit laborum magna velit dolor veniam sint.
+                    </p>
+                    <p>
+                        Do ut ad quis et qui qui tempor do irure laborum ullamco excepteur. Adipisicing ipsum ad
+                        excepteur sit ipsum adipisicing. Ut ut elit proident fugiat. Ad deserunt et consequat
+                        aliquip nisi ut dolore sit ut veniam fugiat culpa nulla. Consequat eiusmod ad deserunt ad
+                        sunt adipisicing deserunt nulla est cupidatat commodo do. Minim aliquip dolor in deserunt
+                        elit officia. Anim duis ullamco cillum nulla voluptate dolore velit ad Lorem adipisicing.
+                    </p>
+                    <p>
+                        <button class="btn btn-lg btn-danger mb-3 mb-xl-0 me-2">
+                            <i class="bi-cart"></i> Adicionar ao Carrinho
+                        </button>
+                        <button class="btn btn-lg btn-outline-danger">
+                            <i class="bi-heart"></i> Adicionar aos Favoritos
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <app-footer></app-footer>
+    </footer>
+</div>

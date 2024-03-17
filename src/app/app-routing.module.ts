@@ -18,6 +18,13 @@ import { FechamentoEnderecoComponent } from './pages/fechamento-endereco/fechame
 import { FechamentoPagamentoComponent } from './pages/fechamento-pagamento/fechamento-pagamento.component';
 import { FechamentoPedidoComponent } from './pages/fechamento-pedido/fechamento-pedido.component';
 import { ClienteComponent } from './pages/cliente/cliente.component';
+import { ClienteDadosComponent } from './pages/cliente-dados/cliente-dados.component';
+import { ClienteContatosComponent } from './pages/cliente-contatos/cliente-contatos.component';
+import { ClienteEnderecoComponent } from './pages/cliente-endereco/cliente-endereco.component';
+import { ClientePedidosComponent } from './pages/cliente-pedidos/cliente-pedidos.component';
+import { ClienteFavoritosComponent } from './pages/cliente-favoritos/cliente-favoritos.component';
+import { ClienteAlterarSenhaComponent } from './pages/cliente-alterar-senha/cliente-alterar-senha.component';
+import { ProdutoComponent } from './pages/produto/produto.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -37,7 +44,14 @@ const routes: Routes = [
   {path: 'fechamentoEndereco', component: FechamentoEnderecoComponent},
   {path: 'fechamentoPagamento', component: FechamentoPagamentoComponent},
   {path: 'fechamentoPedido', component: FechamentoPedidoComponent},
-  {path: 'cliente', component: ClienteComponent}
+  {path: 'cliente', component: ClienteComponent},
+  {path: 'clienteDados', component: ClienteDadosComponent},
+  {path: 'clienteContato', component: ClienteContatosComponent},
+  {path: 'clienteEndereco', component: ClienteEnderecoComponent},
+  {path: 'clientePedidos', component: ClientePedidosComponent},
+  {path: 'clienteFavoritos', component: ClienteFavoritosComponent},
+  {path: 'clienteSenha', component: ClienteAlterarSenhaComponent},
+  {path: 'produto', component: ProdutoComponent}
 ];
 
 @NgModule({

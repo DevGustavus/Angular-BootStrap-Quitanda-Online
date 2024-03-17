@@ -1,0 +1,61 @@
+<div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        [attr.data-bs-target]="'#pedido' + numPedido">
+            <b>Pedido {{numPedido}}</b>
+            <span class="mx-1">(realizado em {{dataPedido}})</span>
+        </button>
+    </h2>
+    <div id="pedido{{numPedido}}" class="accordion-collapse collapse" data-bs-parent="#divPedidos">
+        <div class="accordion-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th class="text-end">R$ Unit.</th>
+                        <th class="text-center">Qtde.</th>
+                        <th class="text-end">Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Abacate Manteiga</td>
+                        <td class="text-end">2,99</td>
+                        <td class="text-center">3</td>
+                        <td class="text-end">8,97</td>
+                    </tr>
+                    <tr>
+                        <td>Banana Prata</td>
+                        <td class="text-end">2,99</td>
+                        <td class="text-center">3</td>
+                        <td class="text-end">8,97</td>
+                    </tr>
+                    <tr>
+                        <td>Mamão Papaya</td>
+                        <td class="text-end">2,99</td>
+                        <td class="text-center">3</td>
+                        <td class="text-end">8,97</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th class="text-end" colspan="3">Valor dos Produtos:</th>
+                        <td class="text-end">26,91</td>
+                    </tr>
+                    <tr>
+                        <th class="text-end" colspan="3">Valor do Frete:</th>
+                        <td class="text-end">7,50</td>
+                    </tr>
+                    <tr>
+                        <th class="text-end" colspan="3">Valor a Pagar:</th>
+                        <td class="text-end">34,41</td>
+                    </tr>
+                    <tr>
+                        <th class="text-end" colspan="3">Forma de Pagamento:</th>
+                        <td class="text-end">Crédito VISA 1x</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
